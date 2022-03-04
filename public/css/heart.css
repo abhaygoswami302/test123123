@@ -1,0 +1,13 @@
+.ico {
+  border-radius: 50%;
+  cursor: pointer;
+  fill: #232323;
+  transition: 0.4s;
+}
+
+.liked {
+  transform: scale(1.05) rotate(360deg);
+  background-color: #C62828;
+  padding: 0.8rem;
+  fill: white;
+}

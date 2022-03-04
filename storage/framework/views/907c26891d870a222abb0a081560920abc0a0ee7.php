@@ -1,0 +1,1 @@
+Hii there , your otp is <?php echo e($random); ?><?php /**PATH /home/customer/www/ultimatecollectionscompany.com/public_html/test123/resources/views/admin/clearProducts/otp.blade.php ENDPATH**/ ?>

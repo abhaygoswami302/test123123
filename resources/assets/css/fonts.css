@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Polly Rounded';
+    src: url('../fonts/PollyRounded-Bold.eot?ad1fe92dada792b7f32e2ddf14bd4008');
+    src: url('../fonts/PollyRounded-Bold.eot?ad1fe92dada792b7f32e2ddf14bd4008?#iefix') format('embedded-opentype'),
+        url('../fonts/PollyRounded-Bold.woff2?5d29a8074a20257fa7dfafa289dc051f') format('woff2'),
+        url('../fonts/PollyRounded-Bold.woff?fa518244134181299f7c37155c5f490a') format('woff'),
+        url('../fonts/PollyRounded-Bold.ttf?fad6085ebb61251b43658902f05303a9') format('truetype'),
+        url('../fonts/PollyRounded-Bold.svg?85e9852589787403b7826f0d2ae60788#PollyRounded-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    
+}
+
+@font-face {
+    font-family: 'Polly Rounded';
+    src: url('../fonts/PollyRounded-Light.eot?30e8d7d004b249abe1591c191d44466c');
+    src: url('../fonts/PollyRounded-Light.eot?30e8d7d004b249abe1591c191d44466c?#iefix') format('embedded-opentype'),
+        url('../fonts/PollyRounded-Light.woff2?48f29a259e1ba2ddb35eb876c41e9f18') format('woff2'),
+        url('../fonts/PollyRounded-Light.woff?2f34e6686af36a10092cbacb3bf240bf') format('woff'),
+        url('../fonts/PollyRounded-Light.ttf?76a93b02a0952a8b523dc8e10ae62772') format('truetype'),
+        url('../fonts/PollyRounded-Light.svg?72ec3d6db9c929324550494920633b82#PollyRounded-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Polly Rounded';
+    src: url('../fonts/PollyRounded-Regular.eot?4771fca724259bd6fc08415a72fa8f23');
+    src: url('../fonts/PollyRounded-Regular.eot?4771fca724259bd6fc08415a72fa8f23?#iefix') format('embedded-opentype'),
+        url('../fonts/PollyRounded-Regular.woff2?32a7ec6e4be19383b0e5584a5e7558c4') format('woff2'),
+        url('../fonts/PollyRounded-Regular.woff?f5791e23aaa932803c466d7e47abf141') format('woff'),
+        url('../fonts/PollyRounded-Regular.ttf?bb88765b83bba91903237d709d454b80') format('truetype'),
+        url('../fonts/PollyRounded-Regular.svg?93e8cee0d290ddd92f26c4b5d8847e8e#PollyRounded-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

@@ -1,0 +1,1156 @@
+
+body{
+    font-family: 'Polly Rounded';
+}
+
+h1 , h2 , h3 , h4 , h5 , h6 , ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.custHeader{
+    float: left;
+    width: 100%;
+}
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+}
+.Header_Top{
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    background: rgb(238,2,17);
+    background: linear-gradient(90deg, rgba(238,2,17,1) 0%, rgba(58,0,198,1) 100%);
+}
+.Header_Top_Lft{
+    float: left;
+    width: 100%;
+}
+.Header_Top_Lft ul{
+    float: left;
+    width: 100%;
+	margin: 3px 0 0 0;
+}
+.Header_Top_Lft ul li{
+    float: left;
+    list-style: none;
+    margin: 0 30px 0 0;
+}
+.Header_Top_Lft ul li:last-child{
+    margin: 0px;
+}
+.Header_Top_Lft ul li a{
+    float: left;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.Header_Top_Lft ul li a img{
+    float: left;
+    margin: 4px 6px 0 0;
+}
+.Header_Top_Lft ul li a span{
+    float: left;
+}
+.Header_Top_Rt{
+    float: left;
+    width: 100%;
+}
+.Header_Top_Rt ul{
+    float: right;
+}
+.Header_Top_Rt ul li{
+    float: left;
+    list-style: none;
+    margin: 0 0 0 18px;
+}
+.Header_Top_Rt ul li a{
+	display: inline-block;
+	color: #fff;
+    margin: 0px 0 0 0;
+	font-size: 18px;
+	transform: scale(1);
+	transition: all 0.1s ease-in-out;
+}
+.Header_Top_Rt ul li a:hover{
+	transform: scale(1.1);
+}
+.Header_Top_Rt ul li:first-child{
+    margin: 0px;
+}
+.Header_Bottom{
+    float: left;
+    width: 100%;
+    padding: 20px 0;
+	background: #fff;
+}
+.Header_Bottom_Lft{
+    float: left;
+    width: 100%;
+}
+.Header_Bottom_Lft img{
+    float: left;
+}
+.Header_Bottom_Rt{
+    float: left;
+    width: 100%;
+}
+.Header_Bottom_Rt .search{
+    float: left;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: 16px 0 0 0;
+}
+.SrchHvr{
+    float: right;
+    width: 80%;
+}
+.SrchHdr{
+    float: right;
+    width: 100%;
+    border: 2px solid #4400bc;
+    height: auto;
+    padding: 7px 15px 10px 15px;
+    font-size: 20px;
+    color: #7B7B7B;
+    border-radius: 50px;
+    transition: all 0.4s ease-in-out;
+}
+.SrchHvr:hover .SrchHdr{
+    border-color:#d2022e;
+}
+.SrchHvr:hover .SrcBtn{
+    background:#d2022e;
+}
+.SrchHdr:focus{
+    box-shadow: none;
+    border-color: #4400bc;
+}
+.SrcBtn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #4400bc;
+    border-radius: 50px;
+    border: none;
+    height: 51px;
+    width: 70px;    
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+}
+.SrcBtn img{
+    display: inline-block;
+    margin: -7px 0 0 0;
+}
+.Nav_Menu{
+    float: left;
+    width: 100%;
+    padding: 20px 0 18px 0;
+    background: rgb(238,2,17);
+    background: linear-gradient(90deg, rgba(238,2,17,1) 0%, rgba(58,0,198,1) 100%);
+    transition: all 0.4s ease-in-out;
+	position: relative;
+	z-index: 100;
+}
+.Nav_Menu_Lft{
+    float: left;
+    width: 100%;
+}
+.Nav_Menu_Rt{
+    float: left;
+    width: 100%;
+}
+.Nav_Menu_Rt ul{
+    float: right;
+}
+.Nav_Menu_Rt ul li{
+    float: left;
+    list-style: none;
+}
+.Nav_Menu_Rt ul li:first-child{
+    border-right: 1px solid #fff !important;
+}
+.Nav_Menu_Rt ul li:last-child a{
+    padding-right: 0px;
+}
+.Nav_Menu_Rt ul li a{
+    padding: 8px 20px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #fff;
+}
+.Banner{
+    float: left;
+    width: 100%;
+    height: 720px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.cstMain{
+    float: left;
+    width: 100%;
+    padding: 80px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.HomeSec1{
+    float: left;
+    width: 100%;
+}
+.HomeSec1Data{
+    float: left;
+    width: 100%;
+    background: #fff;
+    padding: 50px 43px;
+}
+.TitleMn{
+    float: left;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.TitleMn h2{
+    float: left;
+    width: 100%;
+    font-size: 52px;
+    font-weight: bold;
+    background: linear-gradient(to right, #F5020A , #F5020A , #3C00C4 , #3C00C4 );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.CollectionGrd{
+    float: left;
+    width: 100%;
+}
+.CollectionGrdMN{
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.CollectionGrdMNImg{
+    float: left;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.CollectionGrdMNImg_1{
+    float: left;
+    width: 100%;
+}
+.CollectionGrdMNImg_2{
+    float: left;
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    background: rgba(255,255,255,0.8);
+    text-align: center;
+    padding: 20px 10px;
+    top: 5%;
+    left: 5%;
+ transform: scale(0);
+ transition: all 0.4s ease-in-out;
+}
+.CollectionGrdMNImg:hover .CollectionGrdMNImg_2{
+ transform: scale(1);
+}
+.CollectionGrdMNImg_2 h3{
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.CollectionGrdMNImg_2 p{
+    float: left;
+    width: 100%;
+    font-size: 15px;
+}
+.CollectionGrdMNImg img{
+    float: left;
+    width: 100%;
+}
+.CollectionGrdMNTxt{
+    float: left;
+    width: 100%;
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+.CollectionGrdMNTxt h3{
+    float: left;
+    width: 100%;
+    font-size: 17px;
+    font-weight: normal;
+}
+.VwBtn{
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+.VwBtn button{
+	display: inline-block;
+	width: 170px;
+	height: 50px;
+	border: none;
+	outline: none;
+	color: #fff;
+	background-image: linear-gradient(to right, #ED0214, #4501BC );
+	cursor: pointer;
+	position: relative;
+	z-index: 0;
+	border-radius: 5px;
+}
+.VwBtn button::before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+        background-size: auto;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    -webkit-animation: glowing 20s linear infinite;
+            animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+.VwBtn button::after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, #ED0214, #4501BC );
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+.VwBtn button:hover::before {
+    opacity: 1;
+}
+@-webkit-keyframes  glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}
+@keyframes  glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}
+.HomeSec1Data2{
+	/*margin: 80px 0 0 0;*/
+	background: #F4F4F4;
+}
+.HomeSec1Data2 .TitleMn p{
+	float: left;
+	width: 100%;
+	text-align: center;
+	font-size: 16px;
+	color: #000;
+	font-weight: normal;
+	margin: 10px 0 0 0;
+}
+.HomeSec1Data2 .CollectionGrd{
+	background: #fff;
+	padding: 20px;
+	margin-bottom: 40px;
+}
+.HomeSec1Data2 .CollectionGrd table{
+	margin: 0px;
+}
+.HomeSec1Data2 .CollectionGrd thead tr th{
+	background: #4400bc;
+	color: #fff;
+}
+.HomeSec1Data2 .CollectionGrd thead tr th:last-child{
+	text-align: center;
+}
+.HomeSec1Data2 .CollectionGrd tbody tr td{
+	vertical-align: middle;
+}
+.HomeSec1Data2 .CollectionGrd tbody tr td:last-child img{
+	width: 92px;
+	height: 52px;
+}
+.HomeSec1Data2 .CollectionGrd tbody tr:nth-child(odd){
+	background: #fff;
+}
+.HomeSec1Data2 .CollectionGrd tbody tr:hover:nth-child(odd){
+	background: #b5b5b51c;
+}
+.HomeSec1Data2 .CollectionGrd tbody tr:nth-child(even){
+	background: #ede6f8;
+}
+.HomeSec1Data2 .CollectionGrd tbody tr:hover:nth-child(even){
+	background: #d0bfea;
+}
+.HomeSec1Data2 .CollectionGrd .table-bordered td, .HomeSec1Data2 .CollectionGrd .table-bordered th{
+	border-color: #ccc;
+}
+.FtrMn{
+	float: left;
+	width: 100%;
+}
+.FooterTp{
+	float: left;
+	width: 100%;
+	padding: 40px 0;
+}
+.FooterTp_1{
+	float: left;
+	width: 100%;
+}
+.FtrLogo{
+	float: left;
+	width: 100%;
+}
+.FtrLogo img{
+	float: left;
+	width: 255px;
+}
+.FtrScl{
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin: 15px 0 0 0;
+}
+.FtrScl ul{
+	float: left;
+	width: 100%;
+}
+.FtrScl ul li{
+	display: inline-block;
+	list-style: none;
+}
+.FtrScl ul li a{
+	display: inline-block;
+	color: #3C00C4;
+	font-size: 28px;
+	padding: 0 8px;
+ transform: scale(1);
+ transition: all 0.4s ease-in-out;
+}
+.FtrScl ul li a:hover{
+	transform: scale(1.1);
+	color: #e80216;
+}
+.FtrTtl{
+	float: left;
+	width: 100%;
+	margin: 0 0 20px 0;
+	padding: 0 0 0 20px;
+}
+.FtrTtl h3{
+	float: left;
+	width: 100%;
+	font-weight: bold;
+	font-size: 26px;
+	color: #000;
+}
+.FtrDsc{
+	float: left;
+	width: 100%;
+	padding: 0 0 0 20px;
+}
+.FtrDsc ul{
+	float: left;
+	width: 100%;
+}
+.FtrDsc ul li{
+	float: left;
+	width: 100%;
+	list-style: none;
+	margin: 0 0 6px 0;
+}
+.FtrDsc ul li a{
+	float: left;
+	font-weight: normal;
+	font-size: 18px;
+	color: #000;
+ transition: all 0.4s ease-in-out;
+}
+.FtrDsc ul li a i{
+	display: inline-block;
+	margin: 0 10px 0 0;
+ transition: all 0.4s ease-in-out;
+	font-size: 14px;
+}
+.FtrDsc ul li a:hover i{
+	margin: 0 3px 0 7px;
+}
+.FtrDsc ul li a:hover{
+	text-decoration: none;
+	color: #e50219;
+}
+.FtrGoogleBtns{
+	float: left;
+	width: 100%;
+}
+.FtrGoogleBtns ul{
+	float: left;
+	width: 100%;
+	padding: 0 0 0 20px;
+}
+.FtrGoogleBtns ul li{
+	float: left;
+	width: 100%;
+	list-style: none;
+	margin: 0 0 0 0;
+}
+.FtrGoogleBtns ul li:last-child{
+	padding: 0 0 0 10px;
+}
+.FtrGoogleBtns ul li img{
+ transition: all 0.4s ease-in-out;
+	transform: scale(1.1);
+}
+.FtrGoogleBtns ul li img:hover{
+	transform: scale(1.2);
+}
+.FooterBtm{
+	float: left;
+	width: 100%;
+	text-align: center;
+	background: #4201C0;
+	text-align: center;
+	padding: 15px 0;
+}
+.FooterBtm p{
+	float: left;
+	width: 100%;
+	color: #fff;
+	margin: 0px;
+	font-size: 17px;
+}
+.DtpNon{
+	display: none;
+}
+.Click_Top #button {
+	display: inline-block;
+	background-color: #fff;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	border-radius: 50%;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	transition: background-color .3s, 
+	opacity .5s, visibility .5s;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 1000;
+	color: #dc0223;
+	font-size: 26px;
+}
+.Click_Top #button:hover {
+	cursor: pointer;
+	background-color: #4400bc;
+}
+.Click_Top #button:active {
+	background-color: #4400bc;
+}
+.Click_Top #button.show {
+	opacity: 1;
+	visibility: visible;
+
+}
+.ClctMn{
+	float: left;
+	width: 100%;
+	border-bottom: 2px solid #e00220;
+}
+.ClctMn .container{
+	background: #fff;
+	-ms-box-shadow: 0 -8px 6px rgba(0,0,0,0.4);
+	-o-box-shadow: 0 -8px 6px rgba(0,0,0,0.4);
+	box-shadow: 0 -8px 6px rgba(0,0,0,0.4);
+}
+.WtBg{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.ClctMnLft{
+	float: left;
+	width: 100%;
+}
+.Fltr1{
+	float: left;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.Fltr1Ttl{
+	float: left;
+	width: 100%;
+	background: rgb(238,2,17);
+	background: linear-gradient(90deg, rgba(238,2,17,1) 0%, rgba(58,0,198,1) 100%);
+	-ms-box-shadow: 0px 5px 6px rgba(0,0,0,0.2);
+	-o-box-shadow: 0px 5px 6px rgba(0,0,0,0.2);
+	box-shadow: 0px 5px 6px rgba(0,0,0,0.2);
+}
+.Fltr1Ttl h4{
+	float: left;
+	width: 100%;
+	color: #fff;
+	font-size: 20px;
+	padding: 10px 15px;
+	position: relative;
+}
+.Fltr1Lst{
+	float: left;
+	width: 100%;
+	-ms-box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+	-o-box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+.Fltr1Lst ul{
+	float: left;
+	width: 100%;
+}
+.Fltr1Lst ul li{
+	float: left;
+	width: 100%;
+	list-style: none;
+}
+.Fltr1Lst ul li a{
+	float: left;
+	width: 100%;
+	border-bottom: 2px solid #D4D4D4;
+	font-size: 16px;
+	color: #858585;
+	padding: 8px 15px;
+	transition: all 0.4s ease-in-out;
+}
+.Fltr1Lst ul li a:hover{
+	text-decoration: none;
+	color: #c80237;
+	padding-left: 20px;
+}
+.ClctMnRt{
+	float: left;
+	width: 100%;
+	padding: 0 0 0 20px;
+}
+.ClctMnRtTp{
+	float: left;
+	width: 100%;
+}
+.ClctMnRtTpLft{
+	float: left;
+	width: 40%;
+}
+.ClctMnRtTpLft .TitleMn h2{
+	font-size: 32px;
+}
+.ClctMnRtTpRt{
+	float: left;
+	width: 60%;
+}
+.ClctMnRtTpRt .search{
+	float: left;
+	width: 100%;	  
+	position: relative;
+}
+.ClctMnRtBtm{
+	float: left;
+	width: 100%;
+}
+.ClctMnRtBtm .CollectionGrdMNImg img{
+	border-radius: 10px 10px 0px 0px;
+	height:200px;
+}
+
+.ClctMnRtBtm .CollectionGrdMNImg_2 h3 {
+    font-size: 22px;
+}
+.ClctMnRtBtm .CollectionGrdMNImg_2 p{
+	font-size: 13px;
+}
+.InnerBanner{
+	float: left;
+	width: 100%;
+	position: relative;
+	height: auto;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 60px 0 40px 0;
+}
+.InnerBanner:after{
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(255,255,255,0.9);
+}
+.InnerBannerTxt{
+	float: left;
+	width: 100%;
+	position: relative;
+	z-index: 1;
+	text-align: center;
+}
+.InnerBannerTxt .TitleMn{
+	margin-bottom: 28px;
+}
+.InnerBannerTxt p{
+	font-size: 16px;
+}
+.Plain_First{
+	float: left;
+	width: 100%;
+	padding: 80px 0 240px 0;
+}
+.PriceData_1{
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+.PriceData_1 .TitleMn{
+	margin-bottom: 20px;
+}
+.PriceData_2{
+	float: left;
+	width: 100%;
+	margin: 100px 0 0 0;
+} 
+
+.Price1{
+	float: left;
+	width: 100%;
+	text-align: center;
+	background: #fff;
+	border-radius: 10px;
+	-ms-box-shadow: 10px 20px 28px rgba(0,0,0,0.1);
+	-o-box-shadow: 10px 20px 28px rgba(0,0,0,0.1);
+	box-shadow: 10px 20px 28px rgba(0,0,0,0.1);
+	height: 400px;
+	transition: all 0.4s ease-in-out;
+	cursor: pointer;
+	border: 3px solid transparent;
+	position: absolute;
+	z-index: 1;
+}
+.Price1:hover{
+	margin: -20px 0 0 0;
+	border-color: #3B01C6; 
+}
+.Price1:hover .PriceBtn a{
+	text-decoration: none;
+	color: #fff;
+	background: #3B01C6;
+}
+.Price2.Price1:hover{
+	border-color: #EC0214;
+}
+.Price2.Price1:hover .PriceBtn a{
+	text-decoration: none;
+	color: #fff;
+	background: #EC0214;
+}
+.Price1 h2{
+	float: left;
+	width: 100%;
+	margin: 40px 0 0px 0;
+	font-size: 52px;
+	color: #3B01C6;
+	font-weight: bold;
+}
+.Price1 p{
+	float: left;
+	width: 100%;
+	margin: 0 0 20px 0;
+	font-size: 22px;
+	color: #000;
+	font-weight: 300;
+}
+.Price1 h4{
+	float: left;
+	width: 100%;
+	margin: 0 0 20px 0;
+	font-size: 32px;
+	color: #3B01C6;
+	font-weight: bold;
+}
+.Price1 ul{
+	float: left;
+	width: 100%;
+}
+.Price1 ul li{
+	float: left;
+	width: 100%;
+	list-style: none;
+	font-size: 18px;
+	margin: 4px 0;
+}
+.PriceBtn{
+	float: left;
+	width: 100%;
+	margin: 40px 0 0 0;
+}
+.PriceBtn a{
+	display: inline-block;
+	color: #3B01C6;
+	border: 2px solid #3B01C6;
+	border-radius: 50px;
+	background: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 10px 40px;
+	transition: all 0.4s ease-in-out;
+}
+.Price2.Price1 h2 , .Price2.Price1 h4{
+	color: #EC0214;
+}
+.Price2 .PriceBtn a{
+	color: #EC0214;
+	border-color: #EC0214;
+}
+.PriceData_2 .col-xl-4{
+	margin: 0 40px;
+}
+.Plain_Second{
+	float: left;
+	width: 100%;
+	height: 382px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+.LoginMn{
+	float: left;
+	width: 100%;
+}
+.LoginMnLft{
+	float: left;
+	width: 50%;
+	position: relative;
+}/*
+.LoginMnLft:after{
+	content: "";
+	width: 50%;
+	height: 100%;
+	background-image: url(/images/login_bg.png?c34d0d5f1d6ba4ca678c5a7915160212);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	position: fixed;
+	left: 0;
+	top: 0;
+	-ms-box-shadow: 16px 1px 23px 0px rgba(68,0,188,0.22);
+	-o-box-shadow: 16px 1px 23px 0px rgba(68,0,188,0.22);
+	box-shadow: 16px 1px 23px 0px rgba(68,0,188,0.22);
+}*/
+.LoginBgLft{
+	content: "";
+	width: 50%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	-ms-box-shadow: 16px 1px 23px 0px rgba(68,0,188,0.22);
+	-o-box-shadow: 16px 1px 23px 0px rgba(68,0,188,0.22);
+	box-shadow: 16px 1px 23px 0px rgba(68,0,188,0.22);
+}
+.LoginMnLftMn{
+	float: left;
+	width: 100%;
+	position: relative;
+	text-align: center;
+	z-index: 1;
+	margin: 40% 0 0 0;
+}
+.LoginMnLftMn h3{
+	float: left;
+	width: 100%;
+	color: #fff;
+	font-weight: bold;
+	font-size: 42px;
+}
+.LoginMnLftMn p{
+	float: left;
+	width: 100%;
+	color: #fff;
+	font-weight: normal;
+	font-size: 18px;
+	margin: 15px 0 0 0;
+}
+.LgnLftBtns{
+	float: left;
+	width: 100%;
+	margin: 30px 0 0 0;
+}
+.LgnLftBtns a{
+	display: inline-block;
+	color: #fff;
+	border: 2px solid #fff;
+	border-radius: 50px;
+	background: transparent;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 10px 50px;
+	transition: all 0.4s ease-in-out;
+	margin: 0 10px;
+}
+.LgnLftBtns a:hover{
+	text-decoration: none;
+	color: #4400bc;
+	background: #fff;
+}
+.LoginMnRt{
+	float: left;
+	width: 50%;
+	padding: 20% 8%;
+}
+.LoginMnRtTtl{
+	float: left;
+	width: 100%;
+}
+.LoginMnRtTtl h3{
+	float: left;
+	width: 100%;
+	font-weight: bold;
+	margin: 0 0 40px 0;
+	font-size: 42px;
+}
+.LoginMnRtFrm{
+	float: left;
+	width: 100%;
+}
+.FrmRpt{
+	float: left;
+	width: 100%;
+	margin: 0 0 30px 0;
+}
+.FrmRpt input.form-control{
+	height: 60px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.FrmRpt .custom-control-label::before{
+	border-width: 2px;
+	border-color: #4400bc;
+	border-radius: 10px;
+	width: 30px;
+	height: 30px;
+}
+.FrmRpt .custom-control-label{
+	font-size: 20px;
+	color: #4400BC;
+	padding: 4px 0 0 20px;
+}
+.custom-control-input:checked ~ .custom-control-label::before {
+    color: #fff;
+    border-color: #4400BC!important;
+    background-color: #4400BC!important;
+}
+.FrmRpt .custom-control-label::after{
+	width: 30px;
+	height: 30px;
+}
+.LoginSbmt{
+	display: inline-block;
+	color: #4400BC;
+	border: 2px solid #4400BC;
+	border-radius: 50px;
+	background: transparent;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 10px 50px; 
+	transition: all 0.4s ease-in-out;
+	margin: 0 10px;
+}
+.LoginSbmt:hover{
+	color: #fff;
+	background: #4400BC; 
+}
+.FrgtPass{
+	display: inline-block;
+	color: #4400BC;
+	font-size: 20px;
+}
+.FrgtPass:hover{
+	color: #000;
+	text-decoration: none;
+}
+.RegistrationMn .LoginMnRt {
+    padding: 10% 4%;
+}
+.Nav_Menu_Rt ul li .dropdown .dropdown-menu{
+	border-radius: 0px;
+	padding: 0px;
+}
+.Nav_Menu_Rt ul li .dropdown .dropdown-menu a{
+	width: auto;
+	font-size: 14px;
+	padding: 12px 15px !important;
+	background: #333;
+	border-bottom: 1px solid rgba(150, 150, 150, 0.15);
+}
+.Nav_Menu_Rt ul li .dropdown .dropdown-menu a:hover{
+	color: #cb0234;
+	background: #fff;
+}
+.ProductWtBdcrm .breadcrumb{
+	background:transparent;
+	float: right;
+}
+.ProductWtBdcrm .breadcrumb li{
+	display: inline-block;
+}
+.ProductWtBdcrm .breadcrumb li a{
+	display: inline-block;
+	font-size: 18px;
+	color: #3c00c4;
+	position: relative;
+}
+.ProductWtBdcrm .breadcrumb li a:hover{
+	text-decoration: none;
+	color: #ed0212;
+}
+.ProductWtBdcrm .breadcrumb li a.active{
+	font-weight: bold;
+	color: #ed0212;
+}
+.ProductWtBdcrm .breadcrumb li a:after{
+	content:"/";
+	display: inline-block;
+	color: #3c00c4;
+	position: relative;
+	margin: 0 10px;
+}
+.ProductWtBdcrm .breadcrumb li:last-child a:after{
+	display: none;
+}
+.cstProduct_Form textarea.SrchHdr{
+	border-radius: 10px;
+}
+
+.cstProduct_Form .card-header{
+	padding: 0px;
+	background: linear-gradient(90deg, rgba(238,2,17,1) 0%, rgba(58,0,198,1) 100%);
+}
+.cstProduct_Form .card-header h5 button{
+	width: 100%;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	text-align:left;
+}
+.cstProduct_Form .card-header h5 button:focus{
+	box-shadow: none;
+	text-decoration: none;
+}
+.cstProduct_Form .card-header h5 button:hover{
+	text-decoration: none;
+	color: #fff;
+}
+.HomeSec1Data2Pro.HomeSec1Data2{
+	margin:0px;
+}
+
+.HomeBanner{
+	float: left;
+	width: 100%;
+}
+.HomeBanner .carousel-inner img{
+	width: 100%;
+	height: auto;
+}
+.HomeBanner .carousel-control-next, .HomeBanner .carousel-control-prev{
+	background: rgba(0,0,0,0.6);
+	width: 8%;
+}
+.HomeBanner .carousel-caption h3 a{
+	display: inline-block;
+	width: 250px;
+	height: 60px;
+	border: none;
+	outline: none;
+	color: #fff;
+	background-image: linear-gradient(to right, #ED0214, #4501BC );
+	cursor: pointer;
+	position: relative;
+	z-index: 0;
+	border-radius: 5px;
+	padding: 14px 0 0 0;
+	font-size: 26px;
+}
+.HomeBanner .carousel-caption h3 a::before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+        background-size: auto;
+    background-size: auto;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    -webkit-animation: glowing 20s linear infinite;
+            animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+.HomeBanner .carousel-caption h3 a::after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, #ED0214, #4501BC );
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+} 
+.HomeBanner .carousel-caption h3 a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+.HomeBanner .carousel-caption h3 a:hover::before {
+    opacity: 1;
+}
+.cstClctTpFrm .ClctMnRtTpLft{
+	width: 49%;
+}
+.cstClctTpFrm .ClctMnRtTpLft .SrchHvr{
+	width: 99%;
+	float: left; 
+} 
+.cstClctTpFrm .ClctMnRtTpRt {
+    width: 49%;
+}
+.cstClctTpFrm .ClctMnRtTpRt .SrchHvr{
+	width: 99%;
+}
+
+
+#NewFtr .FtrLogo{
+	text-align: center;
+}
+#NewFtr .FtrLogo img{
+	float: none;
+	display: inline-block;
+}
+
+
+
+
+

@@ -1,0 +1,1 @@
+Hii there , your otp is <?php echo e($random); ?><?php /**PATH C:\xampp\htdocs\ucc\resources\views/admin/clearProducts/otp.blade.php ENDPATH**/ ?>
